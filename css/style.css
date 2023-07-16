@@ -1,0 +1,24 @@
+/*.table_seg th:first-child, .table td:first-child{*/
+*.table_seg th:first-child{
+           position:sticky;
+           left:0px;
+           background-color:#fff;
+        }        
+        .table_seg thead th { width:1200px;position: sticky; top: 0px; }
+        .table_seg2 tbody {
+            width:1200px;
+            display:block; 
+            height:200px;
+            overflow-y:scroll; 
+        }
+        .tableFixHead          { overflow: auto; height: 300px; width: 1240px; }
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+.tableFixHead tbody th { position: sticky; left: 0; }
+#div_recursos_prog{
+    cursor: pointer;
+}
+#div_recursos_prog:after {
+}
+#div_recursos_prog.collapsed:after { 
+}
+
