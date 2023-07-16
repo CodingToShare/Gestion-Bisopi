@@ -1,0 +1,2 @@
+<div class="h3" >Dashboard Facturación</div>
+<iframe src="https://app.powerbi.com/view?r=eyJrIjoiOGE0Mjk1YzItMjViYi00ZGJhLWEzZTctNzA0NjU3YWEyZGU1IiwidCI6ImI4OWI5OWZlLWQ4MTAtNDRiNS04YTlkLTVhNWFlMTg3MGE0ZSIsImMiOjR9&pageName=ReportSectionbfc4a440ee064d1019e3" style="width:100%; height:600px; border:0px solid #000;"  allowFullScreen="true"></iframe>
