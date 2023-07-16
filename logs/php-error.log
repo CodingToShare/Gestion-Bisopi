@@ -1,0 +1,60 @@
+[16-Jul-2023 14:43:30 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:44:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:44:33 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:44:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:46:40 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:53:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:53:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:53:53 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:54:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:57:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 14:57:20 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
+[16-Jul-2023 15:01:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function configure() on null in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php:401
+Stack trace:
+#0 C:\xampp\htdocs\gestion\index.php(27): xajax->configure('defaultMode', 'sync')
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion\include\xajax\xajax_core\xajax.inc.php on line 401
