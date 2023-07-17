@@ -15,12 +15,12 @@
     
     session_start();    
     
-    require "include/xajax/xajax_core/xajax.inc.php";
-    $xajax = new xajax();
-    $xajax->configure( "defaultMode", "sync" );
-    $xajax->configure( "characterEncoding", "ISO-8859-1" );
-    $xajax->configure( "decodeUTF8Input", true );
-    $xajax->configure( "javascript URI", "xajax" );
+    //require "include/xajax/xajax_core/xajax.inc.php";
+    //$xajax = new xajax();
+    //$xajax->configure( "defaultMode", "sync" );
+    //$xajax->configure( "characterEncoding", "ISO-8859-1" );
+    //$xajax->configure( "decodeUTF8Input", true );
+    //$xajax->configure( "javascript URI", "xajax" );
     
     include_once  "conf/configuracion.php" ;
     
@@ -38,7 +38,7 @@
     $usuario = new usuario();    
     $user = new stdClass();
     $user = $usuario->getInfoUsuario();
-    $xajax->processRequest();
+    //$xajax->processRequest();
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
