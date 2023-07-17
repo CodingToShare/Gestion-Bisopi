@@ -1,3 +1,45 @@
+<?php    
+    ini_set("display_errors", 0 );
+    ini_set("error_log", "logs/php-error.log");
+    ini_set("default_charset","iso-8859-1");
+    define( "SES_NAME" , md5( $_SERVER["SERVER_NAME"] ) );
+    
+    date_default_timezone_set("America/Bogota");
+    setlocale(LC_ALL,"es_ES@euro","es_ES","esp");
+    $start_time = microtime(TRUE);
+    $timeout = 28800;
+    //Set the maxlifetime of the session    
+    ini_set( "session.gc_maxlifetime", $timeout );
+    //Set the cookie lifetime of the session
+    ini_set( "session.cookie_lifetime", $timeout );
+    
+    session_start();    
+    
+    require "include/xajax/xajax_core/xajax.inc.php";
+    $xajax = new xajax();
+    $xajax->configure( "defaultMode", "sync" );
+    $xajax->configure( "characterEncoding", "ISO-8859-1" );
+    $xajax->configure( "decodeUTF8Input", true );
+    $xajax->configure( "javascript URI", "xajax" );
+    
+    include_once  "conf/configuracion.php" ;
+    
+    error_reporting( ERRORS );    
+    $xajax->configure("debug",DEBUG_XAJAX);
+    
+    include_once "include/mysqli.php";
+    include_once 'include/funciones.php';
+    include_once 'include/funciones_xajax.php';
+    include_once "include/usuario.php";
+    global $_action;
+    global $_view;
+    $_action = trim( $_REQUEST["action"] );
+    $_view  = trim( $_REQUEST["view"] );
+    $usuario = new usuario();    
+    $user = new stdClass();
+    $user = $usuario->getInfoUsuario();
+    $xajax->processRequest();
+?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
